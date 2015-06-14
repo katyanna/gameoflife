@@ -11,13 +11,7 @@ void show(void *u, int w, int h){
   int (*universe)[w] = u;
   printf("\033[H");
   for_line {
-  	for_column {
-    	if (universe[line][column]) {
-    		printf("#");
-    	} else {
-    		printf("  ");
-    	}
-    }
+    for_column printf(universe[line][column] ? "#" : "  ");
     printf("\n");
   }
   fflush(stdout);
