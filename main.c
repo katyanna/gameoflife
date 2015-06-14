@@ -61,9 +61,13 @@ void evolve(void *u, int w, int h){
   for_line for_column universe[line][column] = new[line][column];
 }
 
+int defineLiveCell(){
+  return rand() < RAND_MAX / 5 ? 1 : 0;
+}
+
 void game(int w, int h){
   unsigned universe[h][w];
-  for_column_by_line universe[line][column] = rand() < RAND_MAX / 5 ? 1 : 0;
+  for_column_by_line universe[line][column] = defineLiveCell();
   while (1) {
     show(universe, w, h);
     evolve(universe, w, h);
