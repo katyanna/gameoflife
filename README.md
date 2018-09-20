@@ -5,5 +5,5 @@
 The game of life become very famous soon after it's creation. Many become fascinated by the fact that the very simple rules that the cells operate under could create order out of chaos and that so complicated patterns could evolve. When home computers become popular soon after the game was published, a lot of implementations become available and the game become a popular screen server."
 Source: (https://conwaysgameoflife.appspot.com/)
 
-###Run with
+## Run with
 ```gcc -std=c99 main.c; ./a.out```
