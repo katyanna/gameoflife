@@ -16,4 +16,4 @@ gcc -std=c99 main.c; ./a.out
 ```
 
 ## Demo
-<img align='center' src='https://giphy.com/gifs/BBEuCDf4dIKHTLKlsH' width='500"'>
+<img src='https://media.giphy.com/media/gPj2VRVdy8tJ6YJh3J/giphy.gif'>
