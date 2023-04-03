@@ -1,4 +1,7 @@
 # gameoflife
+
+<< _This was homework from Uni_ >>
+
 > Conway's Game of life was created in 1970 by a British mathematician called John Conway. John Conway
 extended the work of John von Neumann who had created a machine that operated on a board that could
 create copies of itself. The rules that Neumann's machine operated under were much more complicated
